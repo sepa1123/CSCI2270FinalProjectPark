@@ -11,7 +11,7 @@ For this project, I am going to create a shopping program to allow a user to:
 7. Display unsold items in post-order,
 8. Display list of sold items,
 9. Quit the program. 
-The program itself will update the inventory if any data is changed in terms of sold and unsold. You are invited to test this program. Thank you and enjoy.
+The program itself will update the inventory if any data is changed in terms of sold and unsold. You are invited to test this program. If you want to read-in a list of text files you could. Just add that in the commandline. However, the program runs without the pre-made text file and you can make your own list from a scratch! Thank you and enjoy.
 
 
 ## How To Run
