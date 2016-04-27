@@ -21,7 +21,11 @@ Use those all and compile into one program. The program will run fine.
 ## Dependencies
 Only needs 1 header file and 2 cpp files.
 
+#Bugs/Issues:
+None so far when I tested with multiple inputs.
 
+#Contributors:
+Previous CSCI2270 Lectures/Homeworks
 
 ## System Requirements
 Runs on MAC, Windows, Linux using codeblocks, geany, etc.
