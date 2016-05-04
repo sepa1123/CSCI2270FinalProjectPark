@@ -77,7 +77,11 @@ void ItemTree::deleteItemNode(string item)
             // No Children
             if (nodeDelete->leftChild==NULL && nodeDelete->rightChild==NULL)
             {
-                if (nodeDelete == nodeDelete->parent->leftChild)
+                if(nodeDelete==root)//special case for deletion of the root
+                {
+                    root=NULL;
+                }
+                else if (nodeDelete == nodeDelete->parent->leftChild)
                 {
                     nodeDelete->parent->leftChild = NULL;
                 }
